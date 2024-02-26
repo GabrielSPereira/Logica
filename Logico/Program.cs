@@ -48,7 +48,6 @@ public class CalculadoraValorMultaJurosBoleto
 
         double valorRecalculado = valorBoleto + valorTotalJuros;
 
-        // Exibir resultados
         Console.WriteLine($"Valor do boleto recalculado: R$ {valorRecalculado:F2}");
         Console.WriteLine($"Valor total dos juros do período: R$ {valorTotalJuros:F2}");
     }
